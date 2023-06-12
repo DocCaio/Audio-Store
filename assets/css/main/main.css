@@ -1,8 +1,46 @@
 .main {
-    background: black;
+    
+    text-align: center;
+    
     
 }
 
-.img__main {
-    width:100vw;
+.div__main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/assets/images/home/mobile/image-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+.span {
+    color:var(--cor-text);
+}
+
+
+.title__main {
+    font-family: var(--ff-all);
+    font-weight: 700;
+    color: var(--cor-text);
+}
+
+.p__main {
+    font-family: var(--ff-all);
+    font-weight: 500;
+    display: inline-block;
+    
+    color: var(--cor-text);
+    align-items: center;
+
+}
+
+.button__main {
+    background-color: orangered;
+    color: var(--cor-text);
+    padding: 1em 1.5em;
+    text-decoration: none;
 }
