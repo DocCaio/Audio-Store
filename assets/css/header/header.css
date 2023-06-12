@@ -1,0 +1,11 @@
+.header {
+    background: black;
+    
+}
+
+.title {
+    font-family: var(--ff-nav);
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}

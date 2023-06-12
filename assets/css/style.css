@@ -1,0 +1,6 @@
+@import url("./header/header.css");
+@import url("./main/main.css");
+:root {
+    --ff-nav:'Fjalla One', sans-serif;
+    --ff-title: 'Heebo', sans-serif;
+}
