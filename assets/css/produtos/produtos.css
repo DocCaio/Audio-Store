@@ -19,3 +19,24 @@
     
     background-color: black;
 }
+
+/*Seção 4*/
+
+.div__main4 {
+    background-image: url('/assets/images/home/mobile/image-speaker-zx7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 2em;
+    margin:2em 0; 
+ 
+}
+
+.img__2 {
+    height: 40vh;
+    border-radius: 2em;
+    margin:2em 0; 
+    width: 50%;
+
+}
