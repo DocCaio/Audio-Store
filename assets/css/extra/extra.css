@@ -40,6 +40,6 @@ flex-direction: column;
 }
 
 .arrow {
-    color: orangered;
+    color: var(--cor-bg);
     text-decoration: none;
 }

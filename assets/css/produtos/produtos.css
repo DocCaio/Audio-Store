@@ -1,7 +1,10 @@
 
 
-.div__main3 {
-    background: orange;
+.div__main3 {   
+    background:var(--cor-bg);
+    border-radius: 2em;
+    margin:2em;   
+    height: 50vh;
      
    
 
@@ -9,4 +12,10 @@
 
 .img {   
     align-items: center;
+    width: 50%;
+}
+
+.button__main2 {
+    
+    background-color: black;
 }

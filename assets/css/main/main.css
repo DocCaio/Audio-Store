@@ -49,7 +49,7 @@
 
 .button__main {
     color: var(--cor-text);
-    background-color: orangered;    
+    background-color: var(--cor-bg);    
     padding: 1em 1.5em;
     text-decoration: none;
     margin-top: 1em;
