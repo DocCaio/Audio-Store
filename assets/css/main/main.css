@@ -1,19 +1,21 @@
-.main {    
-    text-align: center;
+.main {        
+    text-align: center; 
     
     
 }
 
 .div__main{
-    display: flex;
     align-items: center;
-    flex-direction: column;
     background-image: url('/assets/images/home/mobile/image-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    height: 40vh;    
     width: 100vw;
-    height: 40vh;
+   
   
 }
 
@@ -23,24 +25,28 @@
 
 
 .title__main {
+    color: var(--cor-text);
     font-family: var(--ff-all);
     font-weight: 700;
-    color: var(--cor-text);
+    
 }
 
 .p__main {
+    align-items: center;
+    color: var(--cor-text);
+    display: inline-block;
     font-family: var(--ff-all);
     font-weight: 500;
-    display: inline-block;
+   
     
-    color: var(--cor-text);
-    align-items: center;
+    
+ 
 
 }
 
 .button__main {
-    background-color: orangered;
     color: var(--cor-text);
+    background-color: orangered;    
     padding: 1em 1.5em;
     text-decoration: none;
 }

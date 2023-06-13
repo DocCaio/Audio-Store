@@ -5,8 +5,8 @@
 }
 
 .title {
+    color: var(--cor-text);
     font-family: var(--ff-nav);
-    font-weight: 400;
-    color: white;
+    font-weight: 400;    
     text-align: center;
 }
