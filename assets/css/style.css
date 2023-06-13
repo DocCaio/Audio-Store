@@ -1,14 +1,15 @@
 @import url("./header/header.css");
 @import url("./main/main.css");
 @import url("./extra/extra.css");
+@import url("./produtos/produtos.css");
+    
+
 :root {
     --ff-all: 'Manrope', sans-serif;
     --cor-text:#fff;
 }
 
-body {
-    width: 100vw;
-}
+
 
 *{
     padding: 0;
