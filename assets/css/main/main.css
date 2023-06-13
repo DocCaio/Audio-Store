@@ -1,5 +1,6 @@
 .main {        
-    text-align: center; 
+    text-align: center;
+     
     
     
 }
@@ -28,6 +29,7 @@
     color: var(--cor-text);
     font-family: var(--ff-all);
     font-weight: 700;
+    margin-top: 1em;
     
 }
 
@@ -37,6 +39,7 @@
     display: inline-block;
     font-family: var(--ff-all);
     font-weight: 500;
+    margin-top: 1em;   
    
     
     
@@ -49,4 +52,5 @@
     background-color: orangered;    
     padding: 1em 1.5em;
     text-decoration: none;
+    margin-top: 1em;
 }
