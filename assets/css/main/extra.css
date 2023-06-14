@@ -20,9 +20,7 @@ flex-direction: column;
     border-radius: 1em;
     margin:1em;   
     height: 20vh;
-    width: calc(80vw -16px) ;
-
-     
+    width: calc(80vw -16px);     
     background-size: cover 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,8 +46,7 @@ flex-direction: column;
     border-radius: 1em;
     margin:1em;   
     height: 20vh;
-    width: calc(80vw -16px) ;
-
+    width: calc(80vw -16px);
     background-size: cover 50%;
     background-position: center ;
     background-repeat: no-repeat;
@@ -64,6 +61,53 @@ flex-direction: column;
 
 
 @media screen and  (min-width:768px) {
+
+    .div__sub { 
+        background-size:  40%;
+        background-image:url('/assets/images/product-xx99-mark-one-headphones/tablet/image-product.jpg');
+       
+    
+    }
+    
+    .div__sub2 {        
+    
+        background-size: 40%;
+        background-image: url('/assets/images/product-yx1-earphones/tablet/image-product.jpg');
+    
+    }
+    
+    .div__sub3 {
+        background-size: 40%;
+        background-image: url('/assets/images/product-zx9-speaker/tablet/image-product.jpg');
+    
+    }
+
+    .span__div {
+        font-size: 2em;
+
+    }
+
+    .p__main2 {
+        font-size: 2em;
+
+    }
+    
+    .arrow {
+       font-size: 2em;
+
+    }
+
+     /*Botão 3*/
+
+     .h3__div {
+        font-size: 3em; 
+     }
+    .button__main3 {
+        padding: 1em 2em;
+        font-size: 2em;
+
+    }
+    
 
 
 

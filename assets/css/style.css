@@ -1,7 +1,7 @@
 @import url("./header/header.css");
 @import url("./main/main.css");
-@import url("./extra/extra.css");
-@import url("./produtos/produtos.css");
+@import url("./main/extra.css");
+@import url("./main/produtos.css");
 @import url("./footer/footer.css");
     
 
