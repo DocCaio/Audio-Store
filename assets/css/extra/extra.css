@@ -14,17 +14,30 @@ flex-direction: column;
         
 }
 
+/*fotos*/
+
 .div__sub { 
+    border-radius: 1em;
+    margin:1em;   
+    height: 20vh;
+    width: calc(80vw -16px) ;
+
      
-    background-size: cover;
+    background-size: cover 50%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('/assets/images/cart/image-xx99-mark-one-headphones.jpg');
+    background-image:url('/assets/images/cart/image-xx99-mark-one-headphones.jpg');
 
 }
 
 .div__sub2 {
-    background-size: cover;
+
+    border-radius: 1em;
+    margin:1em;   
+    height: 20vh;
+    width: calc(80vw -16px) ;
+
+    background-size: cover 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('/assets/images/cart/image-yx1-earphones.jpg');
@@ -32,8 +45,13 @@ flex-direction: column;
 }
 
 .div__sub3 {
-    background-size: cover;
-    background-position: center;
+    border-radius: 1em;
+    margin:1em;   
+    height: 20vh;
+    width: calc(80vw -16px) ;
+
+    background-size: cover 50%;
+    background-position: center ;
     background-repeat: no-repeat;
     background-image: url('/assets/images/cart/image-zx9-speaker.jpg');
 
