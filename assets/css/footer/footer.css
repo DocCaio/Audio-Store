@@ -1,0 +1,38 @@
+.footer {
+    background-color: black;
+}
+
+
+
+.ul__footer {
+    display: flex;
+    flex-direction: column;   
+    color: var(--cor-text);
+    text-align: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.p__div2 {
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 1em;
+    color: var(--cor-text);
+}
+
+/*Div 2*/
+
+.div__footer2 {
+    display: flex;
+   margin-left: 6em;
+    
+    
+}
+
+.img__footer {
+    width: 15%;
+    margin-top: 1em;
+   
+    
+    
+}

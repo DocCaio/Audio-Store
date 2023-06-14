@@ -6,6 +6,7 @@
     margin:1em;   
     height: 50vh;
     width: 90vw;
+    
      
    
 
@@ -31,7 +32,9 @@
     border-radius: 1em;
     height: 40vh;   
     width: 90vw;
-    margin: 1em; 
+    margin: 1em;
+    
+    
  
 }
 
@@ -72,11 +75,18 @@
     height: 30vh;
     border-radius: 1em;
     width: 90vw;
+    margin-bottom: 1em;
 
 }
 
+.p__div {
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 1em;
+}
 
-.st__div {
+
+.strong__div {
     color: var(--cor-bg);
     text-transform: uppercase;
 }
