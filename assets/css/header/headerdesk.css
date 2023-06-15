@@ -1,0 +1,36 @@
+.header__navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    color: var(--cor-text);
+}
+
+.ul__nav {
+    color: var(--cor-text);
+    display: flex;
+    text-decoration: none;
+    gap: 1em;
+}
+
+.sec__header {  
+   
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.div__header {
+    background-image: url("/assets/images/home/desktop/image-hero.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    width: 70vw;
+
+}
