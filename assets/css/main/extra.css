@@ -19,7 +19,7 @@ flex-direction: column;
 .div__sub { 
     border-radius: 1em;
     margin:1em;   
-    height: 20vh;
+    min-height: 20vh;
     width: calc(80vw -16px);     
     background-size: cover 50%;
     background-position: center;
@@ -32,7 +32,7 @@ flex-direction: column;
 
     border-radius: 1em;
     margin:1em;   
-    height: 20vh;
+    min-height: 20vh;
     width: calc(80vw -16px) ;
 
     background-size: cover 50%;
@@ -45,7 +45,7 @@ flex-direction: column;
 .div__sub3 {
     border-radius: 1em;
     margin:1em;   
-    height: 20vh;
+    min-height: 20vh;
     width: calc(80vw -16px);
     background-size: cover 50%;
     background-position: center ;

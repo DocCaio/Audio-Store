@@ -1,10 +1,11 @@
 
 
-.div__main3 {   
+.div__main3 {     
+    justify-content: center;
     background:var(--cor-bg);
     border-radius: 1em;
     margin:1em;   
-    height: 50vh;
+    min-height: 50vh;
     width: 90vw;
     
      
@@ -30,30 +31,35 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 1em;
-    height: 40vh;   
+    min-height: 40vh;   
     width: 90vw;
-    margin: 1em;
+    margin: 1em;    
     
     
  
 }
 
+
+
 /*div  5*/
 
+
+
 .img__2 {
-    height: 25vh;
+    min-height: 25vh;
     border-radius: 1em;
     width: 90vw;
+    
    
 
 }
 
 /*div  6*/
 
-.div__main6 {
+.div__main6 {   
   background-color: lightgray;
   border-radius: 1em;
-  height: 20vh;   
+  min-height: 20vh;   
   width: 90vw;
   margin: 1em;
   
@@ -92,8 +98,36 @@
 }
 
 @media screen and  (min-width:768px) {
+
+    .div__main3 {       
+        margin:2em;   
+       
+    
+    }
     .p__div {
         font-size: 2em;
+    }
+
+    .div__main4 {
+       
+        margin: 2em;    
+        
+        
+     
+    }
+
+    .div__main5 {
+        padding: 1em;
+    }
+
+    .div__main6 {
+        margin-left: 2em;
+        
+    }
+
+    .div__main7 {
+     margin-top: 2em;
+     margin-bottom: 1em;
     }
     
 }

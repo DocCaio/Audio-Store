@@ -1,11 +1,12 @@
 .main {        
     text-align: center;
+    
      
     
     
 }
 
-.div__main {
+.div__main {    
     align-items: center;
     background-image: url('/assets/images/home/mobile/image-hero.jpg');
     background-size: cover;
@@ -14,7 +15,7 @@
     display: flex;
     justify-content: center;    
     flex-direction: column;
-    height: 40vh;    
+    min-height:40vh;   
     width: 100vw;
    
   
