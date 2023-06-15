@@ -1,23 +1,35 @@
 .header__navbar {
     background-color: black;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+   
 }
 
 .title {
     color: var(--cor-text);
 }
 
-.ul__nav {
-    color: var(--cor-text);
-    display: flex;
-    text-decoration: none;
+
+
+.ul__nav {   
+    display: flex;    
     gap: 1em;
+    
 }
 
+.a__nav {
+    text-transform: uppercase;
+    color: var(--cor-text);
+    text-decoration: none;
+}
+
+/*Parte 2*/
+
 .sec__header {  
-   
+    background-image: url("/assets/images/home/desktop/image-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -25,12 +37,22 @@
 
 }
 
-.div__header {
-    background-image: url("/assets/images/home/desktop/image-hero.jpg");
-    background-size: cover;
-    background-position: center ;
-    background-repeat: no-repeat;
-    min-height: 90vh;
-    width: 70vw;
+
+.span {
+    color: var(--cor-text);
+
+}
+
+.title__header {
+  color: var(--cor-text);
+}
+
+.p__header {
+    color: var(--cor-text);
+}
+.button__header {
+    background-color: var(--cor-bg);
+    color: var(--cor-text);
+    padding: 1em;
 
 }
